@@ -63,7 +63,6 @@ ssize_t get_inp(inf_t *inf)
 	{
 		j = i; /* init new iterator to current buf position */
 		pt = buff + i; /* get pointer for return */
-		
 		check_chaine(inf, buff, &j, i, ln);
 		while (j < ln) /* iterate to semicolon or end */
 		{
